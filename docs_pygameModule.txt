@@ -1,0 +1,119 @@
+#The Docs for USING 'pygameModule'
+#VISIT at : https://github.com/Parvat-web-dev/newPygameModule
+
+Importing the file:
+
+    Download the source code from GIT-HUB and then paste it
+    in your folder were you are creating a pygame.py file!
+    then follow the command:
+
+        from pygameModule import *
+
+    this command imports all the modules in the pygameModule
+    file.
+    Note* :
+        importing this file will also import:
+            pygame, pygame.locals, random, time.
+        if you dont have any of these module then it will give some
+        errors.
+        To fix that run the following command in your terminal:
+
+            pip install pygame
+
+            pip install random
+
+            pip install time
+            
+    And you are done with importing the file.
+    
+Help for the modules available in the module:
+  
+  Available Modules:
+    1. size()
+    2. frameRate()
+    3. rect()
+    4. circle()
+    5. polygon()
+    6. line()
+    7. arc()
+    8. background()
+    9. text()
+    10. get_mouse_pos()
+    11. mouse()
+    12. mouse_pressed()
+    13. mouse_to()
+    14. mouse_visible()
+    15. key()
+    
+  Docs (or) How To Use The Above Modules:
+  
+    1. size(width, height):
+      This function creates a new pygame window.
+      This function replaces the 'pygame.display.set_mode([width, height])'
+      
+      Parameters:
+        1. width:
+          This parameter controles the width of the screen.
+        2. height:
+          This parameter controles the height of the screen.
+        
+        NOTE*: the height and width are in pixels.
+        
+    2. frameRate(frames_per_second):
+       This function controles the number of frames changing per second.
+       
+       Parameter:
+         1. frames_per_second:
+            no of fraames per one second.
+            
+    3. rect(x, y, width, height, color, radius):
+        This function creates a rectangle on the pygame screen.
+        
+        Parameters:
+          1. x:
+            The x-position of the top left corner of the rectangle.
+          2. y:
+            The y-position of the top left corner of the rectangle.
+          3. width:
+            The width of the rectangle along the x-axis.
+          4. height:
+            The height of the rectangle along the y-axis.
+          5. radius:
+               NOTE*: THIS PARAMETER IS OPTIONAL
+            The radius of the rectangle.
+            It might be used to create rounded corners for the rectangle.
+            
+    4. circle(x, y, radius, color):
+        This function draws a circle on the pygame screen.
+        
+        Parameters:
+          1. x:
+            The x-position of the center of the circle.
+          2. y:
+            The y-position of the center of the circle.
+          3. radius:
+            The radius of the circle. (in pixels)
+          4. color:
+            The fill color of the circle.
+            
+   5. polygon(point_tuple, color, line_width):
+      This function creates a polygon with the given points.
+      
+      Parameters:
+        1. point_tuples:
+          The coordinates of the points of the polygon.
+          example : [(x1, y1), (x2, y2), (x3, y3), (x4, y4), (x5, y5), (x6, y6), ...]
+                  You can insert as many point-pairs as you want.
+         
+        2. color:
+          the color of the drawn line.(in rgb())
+        
+        3. line_width:
+          The width of the line.(in pixels)
+       
+       
+       
+       
+More Fratures will be added on request.
+Please comment for errors.
+Thank you, for using this module.
