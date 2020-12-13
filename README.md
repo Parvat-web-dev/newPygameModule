@@ -19,4 +19,4 @@ Don't Fork Without staring
 ```
 ## Reach us on 
 <a href="https://t.me/rohithaditya"><img src="https://img.shields.io/badge/Pm%20Us%20On%20Telegram-Rohithaditya-blue"></a>
-<a href="https://t.me/parvatR"><img src="https://img.shields.io/badge/Pm%20Us%20On%20Telegram-parvat-blue"></a>
+<a href="https://t.me/parvat_R"><img src="https://img.shields.io/badge/Pm%20Us%20On%20Telegram-parvat-blue"></a>
