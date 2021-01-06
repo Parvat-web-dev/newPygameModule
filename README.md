@@ -17,26 +17,31 @@ We The Team Venila Bots Does not take chrges of any misuse caused by this progra
 Don't Fork Without staring 
 (C) @ParvatR And @Rohithaditya 
 ```
+
 ## How To Install This
 
-Importing the file:
-    Download the source code from GIT-HUB Or Clone and then paste it
-    in your folder were you are creating a pygame.py file!
-    then follow the command:
-        from pygameModule import *
-    this command imports all the modules in the pygameModule
-    file.
-    Note* :
-        importing this file will also import:
+#### Importing the file:
+
+Download the source code from GIT-HUB Or Clone and then paste it
+in your folder were you are creating a pygame.py file!
+then follow the command:
+
+from pygameModule import *
+
+this command imports all the modules in the pygameModule
+file.
+Note* : importing this file will also import:
             pygame, pygame.locals, random, time.
-        if you dont have any of these module then it will give some
-        errors.
-        To fix that run the following command in your terminal:
-            ```
-            pip install pygame
-            pip install random
-            pip install time
-            ```
+        
+if you dont have any of these module then it will give some
+errors.
+To fix that run the following command in your terminal:
+
+```pip
+pip install pygame
+pip install random
+pip install time
+```
 
 ## Reach us on 
 <a href="https://t.me/rohithaditya"><img src="https://img.shields.io/badge/Pm%20Us%20On%20Telegram-Rohithaditya-blue"></a>
